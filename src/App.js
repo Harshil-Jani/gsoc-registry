@@ -11,7 +11,7 @@ const Config = require('./Components/config.json');
 function App() {
   const entities_array = Config.map(value => value.repo);
   return (
-    <Admin authProvider={authProvider} dashboard={Dashboard} dataProvider={Sunbird_DataProvider} layout={adminLayout}>
+    <Admin dashboard={Dashboard} dataProvider={Sunbird_DataProvider} layout={adminLayout}>
       {entities_array.map((item, index) => {
         let obj = Config.find(o => o.repo === item);
         let icon_name = obj.icon;
