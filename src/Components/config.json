@@ -1,0 +1,55 @@
+[
+    {
+        "repo": "amadio/g4run",
+        "label": "g4Run",
+        "icon": "List",
+        "fields": [
+            {
+                "path": "commit.author.name",
+                "header": "Author",
+                "type": "Text"
+            },
+            {
+                "path": "commit.committer.name",
+                "header": "Commiter",
+                "type": "Text"
+            },
+            {
+                "path": "commit.author.date",
+                "header": "Date",
+                "type": "Date"
+            },
+            {
+                "path": "commit.message",
+                "header": "Commit Message",
+                "type": "Text"
+            }
+        ]
+    },{
+        "repo": "kubernetes/website",
+        "label": "Kubernetes",
+        "icon": "List",
+        "fields": [
+            {
+                "path": "commit.author.name",
+                "header": "Author",
+                "type": "Text"
+            },
+            {
+                "path": "commit.committer.name",
+                "header": "Commiter",
+                "type": "Text"
+            },
+            {
+                "path": "commit.author.date",
+                "header": "Date",
+                "type": "Date"
+            },
+            {
+                "path": "commit.message",
+                "header": "Commit Message",
+                "type": "Text"
+            }
+        ]
+    }
+]
